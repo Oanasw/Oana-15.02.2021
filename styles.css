@@ -1,0 +1,150 @@
+/******************************TAG SELECTOR*******************/
+body {
+  color: #40514e;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #8785a2;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #ffc7c7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #8785a2;
+}
+
+a {
+  color:#ffc7c7;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+a:hover {
+  color: white;
+}
+
+hr {
+  border: dotted #8785a2 8px;
+  border-bottom: none;
+  width: 3.5%;
+}
+
+p {
+  line-height: 2;
+}
+
+/********************************CLASS SELECTOR*************************/
+.top-container {
+  background-color: #f6f6f6;
+  position: relative;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+.bottom-container {
+background-color: #8785a2;
+padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.check {
+  float:left;
+  margin-right: 30px;
+ width: 10%;
+}
+
+.develop {
+  float:right;
+  margin-left:30px;
+  width: 15%;
+}
+
+.profile{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.skills{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.contact-me {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.btn {
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   padding: 13px;
+   background-color: #FFC7C7;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: rgba(248, 227, 249, 0.83);
+   border: inset #337FED 0;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+#copyrights {
+  color: white;
+  font-size: 0.75rem;
+  font-weight: normal;
+  padding-top: 20px;
+}
+
+#contact {
+  margin: 40px auto 60px;
+  width: 40%;
+}
